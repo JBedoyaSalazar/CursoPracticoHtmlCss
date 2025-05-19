@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+li{
+    list-style: none;;
+}
+
+header{
+    margin-top: 12px;
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .navRightSection{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .navRightSection li a{
+    margin-right: 12px;
+}
+
+header nav .navRightSection .menuIcon .MenuDeIconos{
+    width: 24px;
+    height: 24px;
+}
+
+header nav .navRightSection .fotoPerfil .fotoDePerfil{
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .mainLogo{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .mainLogo img{
+    width: 300px;
+    margin-bottom: 24px;
+}
+
+main .mainInput{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+main .mainInput .mainInputContainer{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #c9cfce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .mainInput .mainInputContainer input{
+    width: 430px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main .mainInput .mainInputContainer:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .mainInput .searchIcon{
+    background-image: url('https://cdn.dribbble.com/userupload/37652680/file/original-c2c1af52e8d18f9379944e02c1105ced.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+main .mainInput .microItem{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+main .mainButtons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .mainButtons div{
+    display: inline-block;
+    margin: 0 14px;
+}
+
+main .mainButtons div button{
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main .mainButtons div button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footerLeft{
+    justify-self: left;
+}
+
+footer .footerRight{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
+
+
